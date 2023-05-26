@@ -1,9 +1,11 @@
-Paper Title: LIMA: Less Is More for Alignment
-
-
-# Summary
-
+# Paper Title: LIMA: Less Is More for Alignment
 Paper link - https://arxiv.org/pdf/2305.11206.pdf
+<!--
+note link - https://github.com/chuckhelios/generative-ai-papers/blob/main/large_language_models_fine_tuning/LIMA%3A%20Less%20Is%20More%20for%20Alignment.md
+Category - Fine Tuning Large Language Model
+-->
+
+## Summary
 
 1. **Abstract & Introduction**: The authors propose LIMA, a 65B parameter language model fine-tuned with the standard supervised loss on only 1,000 carefully curated prompts and responses. They suggest that most knowledge in large language models is learned during pretraining, and only limited instruction tuning data is necessary to produce high-quality output.
 2. **Alignment Data & Training LIMA**: The authors collect a dataset of 1,000 prompts and responses, where the outputs (responses) are stylistically aligned with each other, but the inputs (prompts) are diverse. They fine-tune LIMA, starting from a 65B parameter language model, on this alignment training set. They introduce a special end-of-turn token (EOT) at the end of each utterance to differentiate between each speaker (user and assistant).
@@ -15,7 +17,7 @@ Paper link - https://arxiv.org/pdf/2305.11206.pdf
 In summary, the paper presents a novel approach to fine-tuning language models, demonstrating that with careful curation of a small number of examples, it's possible to achieve competitive results. The authors' work challenges the conventional wisdom that large-scale instruction tuning and reinforcement learning are necessary for high-quality language model outputs, and instead proposes a simpler, more efficient method.
 
 
-# Diagram
+## Diagram
 ```mermaid
 graph TD
 A[Pretrained Model]
