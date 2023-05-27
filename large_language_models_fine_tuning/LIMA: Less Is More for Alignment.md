@@ -55,7 +55,7 @@ D6 --> E
 ```
 
 
-## Details
+## Detail Notes
 
 **Abstract**
 
