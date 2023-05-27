@@ -78,8 +78,7 @@ graph TB
   E --> E1
   F --> F1
   G --> G1
-
-```
+mermaid```
 
 ## Detail Notes
 
