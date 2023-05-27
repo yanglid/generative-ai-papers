@@ -2,7 +2,7 @@
 
 Paper link - https://arxiv.org/pdf/2303.18223.pdf
 <!--
-note link - 
+note link - https://github.com/chuckhelios/generative-ai-papers/blob/main/survey/A%20Survey%20of%20Large%20Language%20Models.md
 Category - Survey
 -->
 
