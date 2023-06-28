@@ -14,7 +14,7 @@ Each entry includes the paper title, a brief summary of the paper's contribution
 
 <a name="#survey"></a>
 ## Survey
-- **[A Survey of Large Language Models](https://arxiv.org/pdf/2303.18223.pdf)** | [Reading Notes](https://github.com/chuckhelios/generative-ai-papers/blob/main/survey/A%20Survey%20of%20Large%20Language%20Models.md)
+- **[A Survey of Large Language Models](https://arxiv.org/pdf/2303.18223.pdf)** | [Reading Notes](./survey/A%20Survey%20of%20Large%20Language%20Models.md)
   <details>
   <summary>Summary</summary>
 
@@ -31,12 +31,25 @@ Each entry includes the paper title, a brief summary of the paper's contribution
 
   </details>
 
+- **[Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://arxiv.org/pdf/2306.08302v1.pdf)** | [Reading Notes](./survey/Unifying%20Large%20Language%20Models%20and%20Knowledge%20Graphs%3A%20A%20Roadmap.md)
+  <details>
+  <summary>Summary</summary>
+
+  1. **Introduction**: The paper discusses the integration of Large Language Models (LLMs) and Knowledge Graphs (KGs) to leverage the strengths of both. LLMs excel in understanding and generating human-like text, while KGs provide structured and factual knowledge.
+  2. **KGs for LLMs**: The authors discuss how KGs can be used to enhance LLMs. This can be done through pre-training, where KGs are used to generate training data for LLMs, or through KG-enhanced inference, where KGs are used during the inference stage to guide the LLM's responses.
+  3. **LLMs for KGs**: The authors discuss how LLMs can be used to enhance KGs. This includes using LLMs to generate embeddings for KGs, for joint text and KG embedding, for KG completion, and for KG construction. The authors also discuss the use of LLMs for KG-to-text generation and KG question answering.
+  4. **Synergized LLMs + KGs**: The authors discuss the synergy of LLMs and KGs, which combines the merits of both to enhance performance in various downstream applications. This includes knowledge representation and reasoning.
+  5. **Future Directions**: The authors discuss several future directions for this research area, including using KGs for hallucination detection in LLMs, editing knowledge in LLMs, injecting knowledge into black-box LLMs, using multi-modal LLMs for KGs, developing LLMs that understand KG structure, and synergizing LLMs and KGs for bidirectional reasoning.
+  6. **Conclusion**: The authors conclude that unifying LLMs and KGs is an active research direction that has attracted increasing attention. They hope that their overview of the recent research in this field can provide a comprehensive understanding and advance future research.
+  
+  </details>
+
 
 
 <a name="#fine-tune"></a>
 ## Fine Tuning Large Language Models
 
-- **[LIMA: Less Is More for Alignment](https://arxiv.org/pdf/2305.11206.pdf)** | [Reading Notes](https://github.com/chuckhelios/generative-ai-papers/blob/main/large_language_models_fine_tuning/LIMA%3A%20Less%20Is%20More%20for%20Alignment.md)
+- **[LIMA: Less Is More for Alignment](https://arxiv.org/pdf/2305.11206.pdf)** | [Reading Notes](./large_language_models_fine_tuning/LIMA%3A%20Less%20Is%20More%20for%20Alignment.md)
   <details>
   <summary>Summary</summary>
 
