@@ -1,10 +1,11 @@
 # Paper Title: Attention Is All You Need
 Paper link - https://arxiv.org/pdf/1706.03762.pdf
+
+My Note On Paper - [PDF](https://1drv.ms/b/s!AlzIBZwjyb1_gbJYLQK3BzDa36Lvgw?e=laPgAo)
 <!--
 note link - 
 Category - 
 -->
-
 ## Summary
 1. **Abstract and Introduction:** The paper introduces the "Transformer", a novel model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output. The Transformer is proposed as a solution to the problem of long-range dependencies in sequence transduction tasks, which is a limitation of sequence-to-sequence models based on RNNs and CNNs.
 2. **Background:** The authors provide a brief overview of sequence transduction, recurrent neural networks, and the attention mechanism, which are the foundational concepts for their work.
