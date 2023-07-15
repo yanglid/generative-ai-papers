@@ -6,10 +6,39 @@ Each entry includes the paper title, a brief summary of the paper's contribution
 
 ## Table of Contents
 
+- [Foundattion](#foundation)
 - [Survey](#survey)
-- [Fine Tuning Large Language Model](#fine-tune)
+- [Fine Tuning](#fine-tune)
 
 -----
+
+<a name="#foundation"></a>
+## Foundation
+
+- **[Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)** | [Reading Notes](./fundation/Attention%20is%20All%20You%20Need.md)
+  <details>
+  <summary>Summary</summary>
+  
+  1. **Abstract and Introduction:** The paper introduces the "Transformer", a novel model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output. The Transformer is proposed as a solution to the problem of long-range dependencies in sequence transduction tasks, which is a limitation of sequence-to-sequence models based on RNNs and CNNs.
+  2. **Background:** The authors provide a brief overview of sequence transduction, recurrent neural networks, and the attention mechanism, which are the foundational concepts for their work.
+  3. **Model Architecture:** The Transformer model consists of an encoder and decoder, each composed of a stack of identical layers. Each layer has two sub-layers: a multi-head self-attention mechanism and a position-wise fully connected feed-forward network. Residual connections and layer normalization are employed around each of the two sub-layers.
+  4. **Attention:** The authors describe the scaled dot-product attention and multi-head attention mechanisms used in their model. The attention function is used to compute a weighted sum of values based on the dot product of the query and key.
+  5. **Position-wise Feed-Forward Networks:** Each of the layers in the encoder and decoder contains a fully connected feed-forward network, which is applied to each position separately and identically.
+  6. **Embeddings and Softmax:** The model uses learned embeddings to convert the input tokens and output tokens to vectors of dimension d_model. The same weight matrix is shared between the two embedding layers and the pre-softmax linear transformation.
+  7. **Positional Encoding:** Since the model doesn't contain recurrence or convolution, positional encodings are added to the input embeddings to indicate the position of the words in the sequence.
+  8. **Why Self-Attention:** The authors discuss the advantages of the self-attention mechanism, such as its ability to handle long-range dependencies, its parallelizability, and its capacity to model various types of dependencies.
+  9. **Training:** The authors describe the training process, including the use of residual dropout, label smoothing, and a custom learning rate scheduler.
+  10. **Results:** The Transformer model achieves state-of-the-art performance on the WMT 2014 English-to-German and English-to-French translation tasks. The authors also conduct an ablation study to understand the importance of different components of the model.
+</details>
+
+
+- **[Title 2](paper-link-2)** | [Reading Notes](notes-link-2)
+  <details>
+  <summary>Summary</summary>
+
+  Detailed summary of the paper and its contributions.
+
+  </details>
 
 
 <a name="#survey"></a>
