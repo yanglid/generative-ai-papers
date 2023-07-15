@@ -15,7 +15,7 @@ Each entry includes the paper title, a brief summary of the paper's contribution
 <a name="#foundation"></a>
 ## Foundation
 
-- **[Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)** | [Reading Notes](./fundation/Attention%20is%20All%20You%20Need.md)
+- **[Attention Is All You Need](https://1drv.ms/b/s!AlzIBZwjyb1_gbJYLQK3BzDa36Lvgw?e=laPgAo)** | [Reading Notes](./fundation/Attention%20is%20All%20You%20Need.md)
   <details>
   <summary>Summary</summary>
   
